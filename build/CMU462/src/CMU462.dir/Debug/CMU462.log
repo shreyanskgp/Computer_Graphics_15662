@@ -1,0 +1,33 @@
+﻿  Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/src/CMakeLists.txt
+  CMake does not need to re-run because D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\CMU462\src\CMakeFiles\generate.stamp is up-to-date.
+  vector2D.cpp
+  vector3D.cpp
+  vector4D.cpp
+  matrix3x3.cpp
+  matrix4x4.cpp
+  quaternion.cpp
+  complex.cpp
+  color.cpp
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\color.cpp(17): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\color.cpp(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\color.cpp(48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\color.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  spectrum.cpp
+  osdtext.cpp
+  osdfont.cpp
+  viewer.cpp
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(131): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(133): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(186): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(244): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(245): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(248): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(249): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\viewer.cpp(257): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  base64.cpp
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\base64.cpp(96): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\src\base64.cpp(113): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+  lodepng.cpp
+  tinyxml2.cpp
+  Generating Code...
+  CMU462.vcxproj -> D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\CMU462\src\Debug\CMU462.lib

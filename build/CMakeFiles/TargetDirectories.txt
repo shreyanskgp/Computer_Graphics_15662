@@ -1,0 +1,17 @@
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMakeFiles/ALL_BUILD.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMakeFiles/ZERO_CHECK.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/CMakeFiles/ALL_BUILD.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/freetype/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glew/CMakeFiles/glew.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glew/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/CMakeFiles/uninstall.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/src/CMakeFiles/glfw.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/src/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/src/CMakeFiles/CMU462.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/src/CMakeFiles/INSTALL.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/src/CMakeFiles/scotty3d.dir
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/src/CMakeFiles/INSTALL.dir

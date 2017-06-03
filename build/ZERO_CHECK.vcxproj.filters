@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\CMakeFiles\8127268d962f47fee500899021a45907\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7C639999-21D5-34C6-AB41-232F4F839BA0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

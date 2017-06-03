@@ -1,0 +1,65 @@
+﻿  application.cpp
+d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\image.h(156): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\image.h(179): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\dynamic_scene/spot_light.h(23): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(110): warning C4305: '=': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(125): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(126): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(127): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(129): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(130): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(131): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(133): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(134): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(135): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(137): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(138): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(139): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(141): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(142): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(143): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(186): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(187): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(190): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(192): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(206): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(232): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(235): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(242): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1155): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1508): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1523): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1533): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1550): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1562): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1579): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1730): warning C4018: '<': signed/unsigned mismatch
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1732): warning C4309: '=': truncation of constant value
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1723): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1767): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1790): warning C4101: 'num': unreferenced local variable
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1809): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1810): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1826): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1872): warning C4244: 'initializing': conversion from 'std::size_t' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1872): warning C4244: 'initializing': conversion from 'std::size_t' to 'const float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1873): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1873): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1915): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1919): warning C4244: 'initializing': conversion from 'std::size_t' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1959): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1959): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1960): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(1960): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(2005): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(2043): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\spline.inl(188): warning C4800: 'double': forcing value to bool 'true' or 'false' (performance warning)
+  d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\spline.inl(152): note: while compiling class template member function 'bool CMU462::Spline<CMU462::Vector3D>::removeKnot(double,double)'
+  D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp(919): note: see reference to function template instantiation 'bool CMU462::Spline<CMU462::Vector3D>::removeKnot(double,double)' being compiled
+  d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\dynamic_scene\scene.h(126): note: see reference to class template instantiation 'CMU462::Spline<CMU462::Vector3D>' being compiled
+d:\desktop\cmu\03 fall 2016\02 computer graphics (15-662)\01 assignments\05 hw5\scotty3d-master\src\application.cpp(352): warning C4715: 'CMU462::Application::info': not all control paths return a value
+  scotty3d.vcxproj -> D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\Debug\scotty3d.exe

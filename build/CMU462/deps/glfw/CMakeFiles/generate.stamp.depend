@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/CMakeLists.txt
+D:/Programs/CMake/share/cmake-3.7/Modules/FindOpenGL.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/FindThreads.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CheckLibraryExists.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CheckSymbolExists.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CheckIncludeFile.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CMakePackageConfigHelpers.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/WriteBasicConfigVersionFile.cmake
+D:/Programs/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/src/glfw3Config.cmake.in
+D:/Programs/CMake/share/cmake-3.7/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/src/glfw_config.h.in
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/src/glfw3.pc.in
+D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/cmake_uninstall.cmake.in

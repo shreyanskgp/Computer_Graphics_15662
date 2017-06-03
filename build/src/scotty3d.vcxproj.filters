@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\collada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\camera_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\light_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\sphere_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\polymesh_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\material_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\environment_light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\halfEdgeMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\meshEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bsdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\pathtracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\timeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\misc\sphere_drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{30E1E52A-CBB1-3691-8C8B-1B130A206460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

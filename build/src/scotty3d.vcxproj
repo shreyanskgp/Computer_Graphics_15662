@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A041BE78-76B0-30C0-B11D-F70274252B93}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>scotty3d</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">scotty3d.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">scotty3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">scotty3d.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">scotty3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">scotty3d.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">scotty3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">scotty3d.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">scotty3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/freetype6.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/zlib1.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CMU462\src\Debug\CMU462.lib;..\CMU462\deps\glew\Debug\glew.lib;..\CMU462\deps\glfw\src\Debug\glfw3.lib;opengl32.lib;glu32.lib;opengl32.lib;freetype.lib;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib;D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Debug/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Debug/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/freetype6.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/zlib1.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CMU462\src\Release\CMU462.lib;..\CMU462\deps\glew\Release\glew.lib;..\CMU462\deps\glfw\src\Release\glfw3.lib;opengl32.lib;glu32.lib;opengl32.lib;freetype.lib;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib;D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Release/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/Release/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/freetype6.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/zlib1.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CMU462\src\MinSizeRel\CMU462.lib;..\CMU462\deps\glew\MinSizeRel\glew.lib;..\CMU462\deps\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;glu32.lib;opengl32.lib;freetype.lib;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib;D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/MinSizeRel/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/MinSizeRel/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\CMU462\deps\freetype\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/freetype6.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\Programs\CMake\bin\cmake.exe -E copy_if_different "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/bin/zlib1.dll" "D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CMU462\src\RelWithDebInfo\CMU462.lib;..\CMU462\deps\glew\RelWithDebInfo\glew.lib;..\CMU462\deps\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;glu32.lib;opengl32.lib;freetype.lib;glu32.lib;freetype.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib;D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/RelWithDebInfo/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/RelWithDebInfo/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe "-HD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master" "-BD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build" --check-stamp-file "D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe "-HD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master" "-BD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build" --check-stamp-file "D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe "-HD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master" "-BD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build" --check-stamp-file "D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Programs\CMake\bin\cmake.exe "-HD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master" "-BD:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build" --check-stamp-file "D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/src/CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\collada.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\camera_info.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\light_info.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\sphere_info.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\polymesh_info.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\collada\material_info.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\mesh.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\scene.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\sphere.cpp" >
+      <ObjectFileName>$(IntDir)/dynamic_scene/sphere.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\widgets.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\skeleton.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\dynamic_scene\joint.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\sphere.cpp" >
+      <ObjectFileName>$(IntDir)/static_scene/sphere.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\triangle.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\object.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\environment_light.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\static_scene\light.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\halfEdgeMesh.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\meshEdit.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bvh.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bbox.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\bsdf.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\camera.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\sampler.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\pathtracer.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\timeline.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\misc\sphere_drawing.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\getopt.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\application.cpp"  />
+    <ClCompile Include="D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\src\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/ZERO_CHECK.vcxproj">
+      <Project>08B583E4-7FAE-310A-8BD1-7ABDACC32B95</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/src/CMU462.vcxproj">
+      <Project>CF31D34F-3222-3173-8DB3-B7E4C41E7C6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glew/glew.vcxproj">
+      <Project>EF06262A-2EDC-32EC-B13D-FA19C1F92909</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/build/CMU462/deps/glfw/src/glfw.vcxproj">
+      <Project>E92381CA-361D-3057-BB31-D9E08487D4F8</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

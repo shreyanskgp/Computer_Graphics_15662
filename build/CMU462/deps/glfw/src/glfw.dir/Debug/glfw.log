@@ -1,0 +1,17 @@
+﻿  Building Custom Rule D:/Desktop/CMU/03 Fall 2016/02 Computer Graphics (15-662)/01 Assignments/05 HW5/Scotty3D-master/CMU462/deps/glfw/src/CMakeLists.txt
+  CMake does not need to re-run because D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\CMU462\deps\glfw\src\CMakeFiles\generate.stamp is up-to-date.
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  context.c
+  init.c
+  input.c
+  monitor.c
+  window.c
+  win32_init.c
+  win32_monitor.c
+  win32_time.c
+  win32_tls.c
+  win32_window.c
+  winmm_joystick.c
+  wgl_context.c
+  Generating Code...
+  glfw.vcxproj -> D:\Desktop\CMU\03 Fall 2016\02 Computer Graphics (15-662)\01 Assignments\05 HW5\Scotty3D-master\build\CMU462\deps\glfw\src\Debug\glfw3.lib
